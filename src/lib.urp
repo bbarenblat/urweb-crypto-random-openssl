@@ -1,0 +1,5 @@
+ffi random
+benignEffectful Random.bytes
+benignEffectful Random.int
+include random.h
+link -lurweb_crypto_random_openssl -lcrypto
