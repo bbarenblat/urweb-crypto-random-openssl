@@ -1,7 +1,0 @@
-DO NOT USE THIS LIBRARY!
-
-This library assumes a thread-safe OpenSSL API.  Currently, Ur/Web binaries
-do _not_ use thread-safe OpenSSL, which means linking this library _will_
-introduce a potentially security-relevant race condition in your application.
-
-Upstream bug: http://www.impredicative.com/mantis/view.php?id=206
